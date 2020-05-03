@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: coco-regular;
-  src: url(../fonts/cocogoose-pro/Cocogoose\ Pro\ Regular\ Trial.ttf);
+  src: url(../fonts/cocogoose-pro/Cocogoose\Pro\Regular\Trial.ttf);
 }
 
 @font-face {
@@ -31,9 +31,10 @@ body {
 
 .concert-area,
 nav,
-.sub-container {
- max-width: 60rem;
- margin: 0 auto;
+.sub-container,
+.program-box {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .sub-container {
@@ -42,7 +43,7 @@ nav,
 }
 
 .sub-nav {
-  background-color: #272A31;
+  background-color: #272a31;
   height: 2rem;
 }
 
@@ -69,6 +70,10 @@ nav,
   right: 7.5rem;
 }
 
+.collapse ul li {
+  list-style-type: none;
+}
+
 .navbar .navbar-nav .nav-link {
   font-family: lato-medium;
 }
@@ -83,15 +88,20 @@ nav {
 
 .gc-campaign {
   padding: 0.3rem;
-  border: 2px solid #EC5242;
+  border: 2px solid #ec5242;
   box-sizing: border-box;
   right: 0;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .bg-overlay {
-  background: linear-gradient(to bottom right, rgb(216, 213, 213), rgba(241, 239, 239, 0.774)), url("../images/gospelconcertbg.jpg") center no-repeat;
-  min-height: 40rem;
+  background: linear-gradient(
+      to bottom right,
+      rgb(216, 213, 213),
+      rgba(241, 239, 239, 0.774)
+    ),
+    url("../images/gospelconcertbg.jpg") center no-repeat;
+  min-height: 30rem;
   background-size: cover;
   background-position: 50%;
 }
@@ -99,7 +109,7 @@ nav {
 blockquote {
   padding-top: 3.5rem;
   font-size: 1.4rem;
-  color: #EC5242;
+  color: #ec5242;
   margin: 0;
   font-family: coco-regular;
 }
@@ -107,14 +117,14 @@ blockquote {
 .concert-area h2 {
   margin: 0;
   font-size: 2.5rem;
-  color: #EC5242;
+  color: #ec5242;
   font-family: lato-black;
 }
 
 .program-summary {
   height: 4.8rem;
   width: 30rem;
-  color: #272A31;
+  color: #272a31;
   padding: 0.4rem;
   font-size: small;
   border: 2px solid #fff;
@@ -125,13 +135,62 @@ blockquote {
 
 .concert-area h3 {
   margin-top: 0.7rem;
-  color: #272A31;
+  color: #272a31;
   font-family: lato-black;
 }
 
 .concert-area h5 {
   margin-top: 0.3rem;
-  color: #272A31;
+  color: #272a31;
   font-size: small;
   font-family: lato-regular;
+}
+
+.main-program h4,
+.see-more-program {
+  padding-top: 3rem;
+  font-family: coco-regular;
+  color: #fff;
+}
+
+.main-program {
+  background: url("../images/background-2.png.png") center no-repeat;
+  min-height: 30rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.info-box img,
+.lecture-box img {
+  width: 30%;
+  height: auto;
+}
+
+.program-box {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.info-box,
+.lecture-box {
+  width: 12rem;
+  height: 12rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(72, 73, 73, 0.434);
+  margin-right: 0.3rem;
+  padding: 1rem;
+}
+
+.info-box h5,
+.lecture-box h5 {
+  font-family: coco-regular;
+  color: #ec5242;
+  margin: 0.5rem 0;
+}
+
+.info-box p,
+.lecture-box p {
+  font-family: lato-medium;
+  font-size: 0.8rem;
 }
