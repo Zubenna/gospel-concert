@@ -32,7 +32,8 @@ body {
 .concert-area,
 nav,
 .sub-container,
-.program-box {
+.program-box,
+.feature-container {
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -133,17 +134,34 @@ blockquote {
   font-family: lato-regular;
 }
 
-.concert-area h3 {
+.short-hr {
+  border: 1px solid #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.concert-date {
   margin-top: 0.7rem;
   color: #272a31;
   font-family: lato-black;
+  font-size: 1.5rem;
 }
 
-.concert-area h5 {
+.concert-venue {
   margin-top: 0.3rem;
   color: #272a31;
   font-size: small;
   font-family: lato-regular;
+}
+
+.see-more-program {
+  border-bottom: 1px solid #fff;
+  width: 16%;
+  margin: 0 auto;
+}
+
+.see-more-program p {
+  margin: 0;
 }
 
 .main-program h4,
@@ -164,6 +182,8 @@ blockquote {
 .lecture-box img {
   width: 30%;
   height: auto;
+  filter: invert(90%);
+  -webkit-filter: invert(90%);
 }
 
 .program-box {
@@ -193,4 +213,59 @@ blockquote {
 .lecture-box p {
   font-family: lato-medium;
   font-size: 0.8rem;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.feature-hr {
+  border: 1px solid #d3d3d3;
+  width: 10%;
+}
+
+.feature-box {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+}
+
+.feature-detail {
+  padding-top: 0.8rem;
+}
+
+.feature-detail h5 {
+  font-family: lato-regular;
+  color: #272a31;
+  font-weight: 600;
+  margin: 0;
+}
+
+.feature-detail p:first-of-type,
+.feature-detail p:last-of-type {
+  font-family: lato-medium;
+  font-size: 0.8rem;
+}
+
+.feature-detail p:first-of-type {
+  color: #ec5242;
+  padding-top: 0.2rem;
+}
+
+.feature-detail p:last-of-type {
+  color: #272a31;
+}
+
+.feature-section h4 {
+  font-family: lato-black;
+  color: #272a31;
+}
+
+.feature-img {
+  width: 80%;
+  top: 1rem;
+  left: 1rem;
+  z-index: 3;
 }
