@@ -33,7 +33,9 @@ body {
 nav,
 .sub-container,
 .program-box,
-.feature-container {
+.feature-container,
+.brand-logo-box,
+.copyright-box {
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -268,4 +270,36 @@ blockquote {
   top: 1rem;
   left: 1rem;
   z-index: 3;
+}
+
+.partner {
+  margin-top: 3rem;
+  background-color: #272a31;
+}
+
+.partner h5 {
+  padding-top: 2rem;
+  color: #d3d3d3;
+  margin: 0;
+}
+
+.brand-logo-box {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.brand-logo-box img {
+  width: 10%;
+}
+
+.copyright-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.copyright-box p {
+  align-self: center;
 }
