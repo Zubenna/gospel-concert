@@ -29,15 +29,7 @@ body {
   height: 100%;
 }
 
-.concert-area,
-nav,
-.sub-container,
-.program-box,
-.feature-container,
-.brand-logo-box,
-.copyright-box,
-.concert-heading,
-.about-logo-container {
+.wrapper {
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -294,6 +286,8 @@ blockquote {
 
 .brand-logo-box img {
   width: 10%;
+  height: auto;
+  object-fit: cover;
 }
 
 .copyright-box {
@@ -307,7 +301,7 @@ blockquote {
 }
 
 .concert-heading h2 {
-  color: #ec5242;
+  color: rgb(236, 82, 66);
 }
 
 .about-summary {
@@ -326,8 +320,14 @@ blockquote {
   margin: 0;
 }
 
+.concert-logo-box {
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
 .concert-heading p,
-.concert-logo-box p {
+.concert-logo-box p,
+.past-concert-box p {
   font-family: lato-medium;
   color: #272a31;
   font-size: 0.8rem;
@@ -341,6 +341,57 @@ blockquote {
 .about-logo {
   margin: 0 auto;
   width: 40%;
-  /* padding: 1rem; */
   border: 0.7px solid #d3d3d3;
+}
+.past-con-1,
+.past-con-2 {
+  height: 10rem;
+  width: 17rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.past-con-1 {
+  background: linear-gradient(
+      to bottom right,
+      rgba(236, 83, 66, 0.733),
+      rgba(236, 83, 66, 0.433)
+    ),
+    url("../images/Past-concert-1.jpg") center no-repeat;
+}
+
+.past-con-2 {
+  background: linear-gradient(
+      to bottom right,
+      rgba(236, 83, 66, 0.733),
+      rgba(236, 83, 66, 0.433)
+    ),
+    url("../images/past-concert-2.jpg") center no-repeat;
+}
+
+.past-flex-box {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.past-flex-box span {
+  top: 3rem;
+  left: 7rem;
+  font-family: coco-regular;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.past-flex-box p {
+  top: 3.5rem;
+  left: 1rem;
+  font-family: lato-medium;
+  color: #fff;
+}
+
+footer {
+  height: 9rem;
+  background-color: #272a31;
+  color: #fff;
 }
