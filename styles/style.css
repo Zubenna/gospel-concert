@@ -35,7 +35,9 @@ nav,
 .program-box,
 .feature-container,
 .brand-logo-box,
-.copyright-box {
+.copyright-box,
+.concert-heading,
+.about-logo-container {
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -302,4 +304,43 @@ blockquote {
 
 .copyright-box p {
   align-self: center;
+}
+
+.concert-heading h2 {
+  color: #ec5242;
+}
+
+.about-summary {
+  width: 70%;
+  margin: 0 auto;
+  font-family: lato-medium;
+  color: #272a31;
+  border: 0.8px solid #d3d3d3;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 0.8rem;
+}
+
+.about-summary p,
+.concert-heading p {
+  margin: 0;
+}
+
+.concert-heading p,
+.concert-logo-box p {
+  font-family: lato-medium;
+  color: #272a31;
+  font-size: 0.8rem;
+}
+
+.concert-logo-box p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-logo {
+  margin: 0 auto;
+  width: 40%;
+  /* padding: 1rem; */
+  border: 0.7px solid #d3d3d3;
 }
