@@ -698,10 +698,13 @@ thead {
   .past-flex-box {
     flex-direction: column;
     margin-left: 12rem;
-    /* margin: 0 auto; */
   }
 
   .past-con-1 {
     margin-bottom: 2rem;
+  }
+
+  .inverse-square2 {
+    left: 11%;
   }
 }
