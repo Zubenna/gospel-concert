@@ -55,7 +55,7 @@ body {
 }
 
 .sub-container .top-link {
-  font-family: lato-medium;
+  font-family: lato-medium Arial, Helvetica, sans-serif;
 }
 
 .logo-box img {
@@ -72,7 +72,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-family: lato-medium;
+  font-family: lato-medium Arial, Helvetica, sans-serif;
 }
 
 .navbar-nav li {
@@ -343,6 +343,7 @@ blockquote {
   width: 40%;
   border: 0.7px solid #d3d3d3;
 }
+
 .past-con-1,
 .past-con-2 {
   height: 10rem;
@@ -352,11 +353,11 @@ blockquote {
 }
 
 .past-con-1 {
-  background: linear-gradient(to bottom right,rgba(236, 83, 66, 0.733),rgba(236, 83, 66, 0.433)), url("../images/Past-concert-1.jpg") center no-repeat;
+  background: linear-gradient(to bottom right, rgba(236, 83, 66, 0.733), rgba(236, 83, 66, 0.433)), url("../images/Past-concert-1.jpg") center no-repeat;
 }
 
 .past-con-2 {
-  background: linear-gradient(to bottom right,rgba(236, 83, 66, 0.733),rgba(236, 83, 66, 0.433)), url("../images/past-concert-2.jpg") center no-repeat;
+  background: linear-gradient(to bottom right, rgba(236, 83, 66, 0.733), rgba(236, 83, 66, 0.433)), url("../images/past-concert-2.jpg") center no-repeat;
 }
 
 .past-flex-box {
@@ -483,8 +484,7 @@ thead {
   }
 
   .concert-area {
-    padding-top: 2rem;
-    padding: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
   }
 
   blockquote,
@@ -754,6 +754,7 @@ thead {
   .inverse-square2 {
     left: 11%;
   }
+
   .inverse-square1 {
     left: 16%;
   }
