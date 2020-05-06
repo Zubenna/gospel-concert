@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div class="sub-nav">
+        <div class="sub-nav hide-in-mobile">
             <div class="sub-container">
                 <a href="#" class="fa fa-facebook text-decoration-none"></a>
                 <a href="#" class="fa fa-twitter text-decoration-none"></a>
@@ -26,8 +26,8 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-md navbar-light">
-            <div class="logo-box">
-                <a href="#index.html"><img src="images/concert-logo.png" alt="Concert Logo" class="img-fluid" /></a>
+            <div class="logo-box hide-in-mobile">
+                <a href="index.html"><img src="images/concert-logo.png" alt="Concert Logo" class="img-fluid" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,25 +36,25 @@
             <div class="collapse navbar-collapse position-relative" id="navbarNav">
                 <ul class="navbar-nav position-absolute">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ticket</a>
+                        <a class="nav-link" href="ticket.html">Ticket</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Programm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Join</a>
+                        <a class="nav-link" href="#">Join</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Sponsor</a>
+                        <a class="nav-link" href="#">Sponsor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">News</a>
+                        <a class="nav-link" href="#">News</a>
                     </li>
                 </ul>
-                <a href="#" class="gc-campaign text-decoration-none position-absolute">GC Campaign</a>
+                <a href="#" class="gc-campaign text-decoration-none hide-in-mobile position-absolute">GC Campaign</a>
             </div>
         </nav>
     </header>
@@ -62,6 +62,7 @@
     <main>
             <section class="bg-overlay">
                 <div class="concert-heading wrapper">
+                    <blockquote class="hide-in-desktop text-center">"Time To Praise Again !!"</blockquote>
                     <h2 class="text-center pt-4">ABUJA ECUMENICAL <br>GOSPEL CONCERT 2020</h2>
                     <hr class="short-hr">
 
@@ -112,14 +113,27 @@
                    </div>
                 </div>
             </section>
-            
-        <footer>
+            <section class="partner">
+                <h5 class="text-center">Partner</h5>
+                <hr class="short-hr">
+                <div class="brand-logo-box wrapper pt-4 pb-5">
+                    <img src="images/brand-1.jpg" alt="Logo One">
+                    <img src="images/brand-2.jpg" alt="Logo Two">
+                    <img src="images/brand-3.jpg" alt="Logo Three">
+                    <img src="images/brand-4.png" alt="Logo Four">
+                    <img src="images/brand-5.jfif" alt="Logo Five">
+                </div>
+            </section>
+        <footer class="copyright">
             <div class="copyright-box  wrapper">
                 <img src="images/concert-logo.png" alt="concert Logo">
                 <p>&copy; 2020 Abuja Ecumenical Concert. All right Reserved.</p>
             </div>
         </footer>
     </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
             crossorigin="anonymous"></script>

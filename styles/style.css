@@ -296,6 +296,11 @@ blockquote {
   padding-top: 2rem;
 }
 
+.copyright {
+  background-color: #fff;
+  color: #272a31;
+}
+
 .copyright-box p {
   align-self: center;
 }
@@ -467,4 +472,118 @@ thead {
 
 .bnt-div {
   text-align: center;
+}
+
+.hide-in-desktop {
+  display: none;
+}
+
+/* Responsiveness */
+/* Home page Mobile */
+
+@media only screen and (max-width: 576px) {
+  .hide-in-mobile {
+    display: none;
+  }
+
+  nav {
+    float: left;
+  }
+
+  .navbar-nav {
+    background-color: #ec5242;
+    width: 10rem;
+    padding-left: 2rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #272a31;
+  }
+
+  .concert-area {
+    padding-top: 2rem;
+    padding: 1rem;
+  }
+
+  blockquote,
+  .concert-area h2 {
+    text-align: left;
+  }
+
+  .concert-area h2 {
+    font-size: 2rem;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .program-summary {
+    width: 18rem;
+    height: 8rem;
+  }
+
+  .program-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-box {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 1fr;
+    grid-column-gap: 0.6rem;
+    margin: 0 auto 1rem auto;
+    width: 90%;
+    height: 10rem;
+    align-items: center;
+  }
+
+  .mobile-box img {
+    width: 70%;
+  }
+
+  .mobile-box p {
+    text-align: left;
+  }
+
+  .join-concert button {
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+  }
+
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .feature-unit {
+    margin-right: 0.6rem;
+  }
+
+  .copyright-box img {
+    width: 60%;
+  }
+
+  .copyright-box {
+    padding-left: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* About */
+
+  .concert-heading {
+    padding-top: 3rem;
+    width: 100%;
+  }
+
+  .hide-in-desktop {
+    display: block;
+  }
+
+  .concert-heading h2 {
+    font-size: 1.5rem;
+  }
 }

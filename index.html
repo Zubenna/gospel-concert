@@ -25,7 +25,7 @@
   </head>
   <body>
     <header>
-      <div class="sub-nav">
+      <div class="sub-nav hide-in-mobile">
         <div class="sub-container wrapper">
           <a href="#" class="fa fa-facebook text-decoration-none"></a>
           <a href="#" class="fa fa-twitter text-decoration-none"></a>
@@ -35,8 +35,8 @@
         </div>
       </div>
       <nav class="navbar navbar-expand-md navbar-light wrapper">
-        <div class="logo-box">
-          <a href="#index.html"
+        <div class="logo-box hide-in-mobile">
+          <a href="index.html"
             ><img
               src="images/concert-logo.png"
               alt="Concert Logo"
@@ -57,10 +57,10 @@
         <div class="collapse navbar-collapse position-relative" id="navbarNav">
           <ul class="navbar-nav position-absolute">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ticket</a>
+              <a class="nav-link" href="ticket.html">Ticket</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Programm</a>
@@ -75,7 +75,7 @@
               <a class="nav-link">News</a>
             </li>
           </ul>
-          <a href="#" class="gc-campaign text-decoration-none position-absolute"
+          <a href="#" class="gc-campaign text-decoration-none position-absolute hide-in-mobile"
             >GC Campaign</a
           >
         </div>
@@ -104,7 +104,7 @@
           <h4 class="text-center">Main Programme</h4>
           <hr class="short-hr">
           <div class="program-box wrapper">
-            <div class="lecture-box text-center">
+            <div class="lecture-box mobile-box text-center">
               <img src="images/lecture.png" alt="" />
               <h5>Lecture</h5>
               <p>
@@ -112,7 +112,7 @@
                 Be inspired and ready to worship God.
               </p>
             </div>
-            <div class="info-box text-center">
+            <div class="info-box mobile-box text-center">
               <img src="images/conversation.png" alt="" />
               <h5>GC Exhibition</h5>
               <p>
@@ -120,7 +120,7 @@
                 gospel artist will exhibit their best work
               </p>
             </div>
-            <div class="info-box text-center">
+            <div class="info-box mobile-box text-center">
               <img src="images/forum-orig.png" alt="" />
               <h5>Forum</h5>
               <p>
@@ -128,7 +128,7 @@
                 will be present to know them better.
               </p>
             </div>
-            <div class="info-box text-center">
+            <div class="info-box mobile-box text-center">
               <img src="images/workshop.png" alt="" />
               <h5>Seminar</h5>
               <p>
@@ -136,7 +136,7 @@
                 gospel music by experts.
               </p>
             </div>
-            <div class="info-box text-center">
+            <div class="info-box mobile-box text-center">
               <img src="images/networking.png" alt="" />
               <h5>Networking</h5>
               <p>
@@ -145,8 +145,11 @@
               </p>
             </div>
           </div>
-          <div class="see-more-program">
-          <p class="text-center">SEE THE WHOLE PROGRAM</p>
+          <div class="see-more-program hide-in-mobile">
+            <p class="text-center">SEE THE WHOLE PROGRAM</p>
+          </div>
+          <div class="join-concert text-center">
+            <button class="text-center p-4 mb-4">Join Abuja EGC 2020</button>
           </div>
         </section>
       <section class="feature-section">
@@ -248,13 +251,15 @@
                  <img src="images/brand-5.jfif" alt="Logo Five">
                </div>
       </section>
-      <footer>
+      <footer class="copyright">
         <div class="copyright-box wrapper">
           <img src="images/concert-logo.png" alt="concert Logo">
           <p>&copy; 2020 Abuja Ecumenical Concert. All right Reserved.</p>
         </div>
       </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
