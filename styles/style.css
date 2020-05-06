@@ -592,13 +592,17 @@ thead {
     width: 80%;
   }
 
+  .about-logo img {
+    width: 80%;
+  }
+
   .past-concert-box {
     padding: 1rem;
   }
 
   .past-flex-box {
     flex-direction: column;
-    margin-left: 2rem;
+    padding-left: 6rem;
   }
 
   .past-con-1 {
@@ -613,7 +617,7 @@ thead {
   }
 
   .brand-logo-box img {
-    width: 50%;
+    width: 70%;
     object-fit: cover;
   }
 
@@ -686,7 +690,7 @@ thead {
 
   .past-flex-box {
     flex-direction: column;
-    margin-left: 12rem;
+    padding-left: 2.6rem;
   }
 
   .past-con-1 {
