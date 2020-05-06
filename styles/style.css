@@ -619,4 +619,15 @@ thead {
     width: 50%;
     object-fit: cover;
   }
-}
+
+  /* ticket */
+
+  .select-ticket-box {
+    padding-top: 3rem;
+  }
+  
+  .select-lunch {
+    padding-top: 9rem;
+  }
+
+ }
