@@ -4,7 +4,7 @@ This project is the coding of a fictitious online music concert. This is my HTML
 
 # Preview
 
-![image](images/Capstone Screen-shot.jpg)
+![image](images/project-capture.png)
 
 # Additional description about the project and its features
 
