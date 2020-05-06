@@ -4,7 +4,7 @@ This project is the coding of a fictitious online music concert. This is my HTML
 
 # Preview
 
-![image](images/project-capture.png)
+![image](images/project-page-extract.png)
 
 # Additional description about the project and its features
 
@@ -42,7 +42,7 @@ The footer contains the concert logo and copyright year and can be seen in most 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/gospel-concert/23704b51f0e43c65592280cab9f78ca55a5fdf98/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/gospel-concert/2e95cdd4e8669955048a8ea2b8233c21192c3088/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 

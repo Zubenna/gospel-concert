@@ -92,8 +92,7 @@ nav {
 }
 
 .bg-overlay {
-  background: linear-gradient(to bottom right,  rgb(216, 213, 213),
-  rgba(241, 239, 239, 0.774)), url("../images/gospelconcertbg.jpg") center no-repeat;
+  background: linear-gradient(to bottom right,  rgb(216, 213, 213), rgba(241, 239, 239, 0.774)), url("../images/gospelconcertbg.jpg") center no-repeat;
   min-height: 30rem;
   background-size: cover;
   background-position: 50%;
