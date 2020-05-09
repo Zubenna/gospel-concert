@@ -57,13 +57,11 @@ The footer contains the concert logo and copyright year and can be seen in most 
 
 ## Author
 
-- Github: [Nnamdi](https://github.com/zubenna)
-- Twitter: [Nnamdi](https://twitter.com/zubenna)
-- Linkedin: [Nnamdi](https://linkedin.com/in/nnamdi-emelu-08b14340/)
+- Github:(https://github.com/zubenna)
+- Twitter:(https://twitter.com/zubenna)
+- Linkedin:(https://linkedin.com/in/nnamdi-emelu-08b14340/)
 
 ## 🤝 Contributing
-
-Special Thanks to Cindy Shin in Behance for this creative design.
 Contributions, issues and feature requests are welcome!
 Feel free to check the [issues page](issues/).
 
@@ -72,5 +70,5 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Special Thanks to Cindy Shin in Behance for this creative design.
 - Inspiration, etc

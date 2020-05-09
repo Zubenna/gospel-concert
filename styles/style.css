@@ -9,6 +9,12 @@
 }
 
 @font-face {
+  font-family: lato-heavy;
+  src: url(../fonts/lato/Lato-Heavy.ttf);
+}
+
+
+@font-face {
   font-family: lato-regular;
   src: url(../fonts/lato/Lato-Regular.ttf);
 }
@@ -30,7 +36,7 @@ body {
 }
 
 .wrapper {
-  max-width: 60rem;
+  max-width: 63rem;
   margin: 0 auto;
 }
 
@@ -54,8 +60,14 @@ body {
   color: #fff;
 }
 
+.sub-container a:hover,
+.gc-campaign:hover,
+.navbar .navbar-nav .nav-link:hover {
+  color: #ec5242;
+}
+
 .sub-container .top-link {
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+ font-family: "lato-medium", Arial, Helvetica, sans-serif;
 }
 
 .logo-box img {
@@ -76,7 +88,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -103,14 +115,13 @@ blockquote {
   font-size: 1.4rem;
   color: #ec5242;
   margin: 0;
-  font-family: coco-regular Arial, Helvetica, sans-serif;
 }
 
-.concert-area h2 {
+.concert-area h1 {
   margin: 0;
   font-size: 2.5rem;
   color: #ec5242;
-  font-family: lato-black Arial, Helvetica, sans-serif;
+  font-family: "lato-heavy", Arial, Helvetica, sans-serif;
 }
 
 .program-summary {
@@ -122,7 +133,7 @@ blockquote {
   border: 2px solid #fff;
   margin-top: 2rem;
   background-color: #d3d3d3;
-  font-family: lato-regular Arial, Helvetica, sans-serif;
+  font-family: "lato-regular", Arial, Helvetica, sans-serif;
 }
 
 .short-hr {
@@ -134,7 +145,7 @@ blockquote {
 .concert-date {
   margin-top: 0.7rem;
   color: #272a31;
-  font-family: lato-black Arial, Helvetica, sans-serif;
+  font-family: "lato-black", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -142,7 +153,7 @@ blockquote {
   margin-top: 0.3rem;
   color: #272a31;
   font-size: small;
-  font-family: lato-regular Arial, Helvetica, sans-serif;
+  font-family: "lato-regular", Arial, Helvetica, sans-serif;
 }
 
 .see-more-program {
@@ -158,7 +169,7 @@ blockquote {
 .main-program h4,
 .see-more-program {
   padding-top: 3rem;
-  font-family: coco-regular Arial, Helvetica, sans-serif;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
@@ -167,6 +178,10 @@ blockquote {
   min-height: 30rem;
   background-size: cover;
   background-position: 50%;
+}
+
+.mobile-box:hover {
+  border: 4px solid #fff;
 }
 
 .info-box img,
@@ -195,14 +210,14 @@ blockquote {
 
 .info-box h5,
 .lecture-box h5 {
-  font-family: coco-regular Arial, Helvetica, sans-serif;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
   color: #ec5242;
   margin: 0.5rem 0;
 }
 
 .info-box p,
 .lecture-box p {
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 }
 
@@ -242,7 +257,7 @@ blockquote {
 }
 
 .feature-detail h5 {
-  font-family: lato-regular Arial, Helvetica, sans-serif;
+  font-family: "lato-regular", Arial, Helvetica, sans-serif;
   color: #272a31;
   font-weight: 600;
   margin: 0;
@@ -251,7 +266,7 @@ blockquote {
 .concert-heading p,
 .concert-logo-box p,
 .past-concert-box p {
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
   color: #272a31;
   font-size: 0.8rem;
 }
@@ -259,13 +274,13 @@ blockquote {
 .past-flex-box p {
   top: 3.5rem;
   left: 1rem;
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
 .feature-detail p:first-of-type,
 .feature-detail p:last-of-type {
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 }
 
@@ -279,7 +294,7 @@ blockquote {
 }
 
 .feature-section h4 {
-  font-family: lato-black Arial, Helvetica, sans-serif;
+  font-family: "lato-black", Arial, Helvetica, sans-serif;
   color: #272a31;
 }
 
@@ -325,14 +340,15 @@ blockquote {
   color: #272a31;
 }
 
-.concert-heading h2 {
+.concert-heading h1 {
   color: rgb(236, 82, 66);
+  font-family: "lato-heavy", Arial, Helvetica, sans-serif;
 }
 
 .about-summary {
   width: 70%;
   margin: 0 auto;
-  font-family: lato-medium Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
   color: #272a31;
   border: 0.8px solid #d3d3d3;
   padding: 1rem;
@@ -376,7 +392,7 @@ blockquote {
 .past-flex-box span {
   top: 3rem;
   left: 7rem;
-  font-family: coco-regular Arial, Helvetica, sans-serif;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   color: #fff;
 }
@@ -388,7 +404,6 @@ footer {
 }
 
 .select-ticket-box {
-  background-color: #d3d3d3;
   height: 30rem;
 }
 
@@ -420,7 +435,7 @@ footer {
 
 .step {
   color: #ec5242;
-  font-family: coco-regular Arial, Helvetica, sans-serif;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
 }
 
 .select-ticket,
@@ -480,16 +495,16 @@ thead {
   }
 
   .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
     color: #272a31;
   }
 
   .concert-area {
-    padding: 2rem 1rem 1rem 1rem;
-  }
-
-  blockquote,
-  .concert-area h2 {
-    text-align: left;
+    margin: 0 auto;
+    padding: 2rem;
   }
 
   .concert-area h2 {
@@ -501,8 +516,12 @@ thead {
   }
 
   .program-summary {
-    width: 18rem;
+    width: 98%;
     height: 8rem;
+  }
+
+  .concert-date {
+    font-size: 1.3rem;
   }
 
   .program-box {
@@ -581,13 +600,14 @@ thead {
     width: 80%;
   }
 
-  .past-concert-box {
-    padding: 1rem;
-  }
-
   .past-flex-box {
     flex-direction: column;
-    padding-left: 6rem;
+  }
+
+  .past-con-1,
+  .past-con-2 {
+    width: 90%rem;
+    margin: 0 auto;
   }
 
   .past-con-1 {
@@ -622,8 +642,16 @@ thead {
 
   .navbar-nav {
     background-color: #ec5242;
-    width: 8rem;
-    padding-left: 1rem;
+    width: 10rem;
+    padding-left: 2rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #272a31;
   }
 
   .concert-area {
@@ -694,6 +722,20 @@ thead {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .concert-area {
     padding: 2rem;
+  }
+
+  .navbar-nav {
+    background-color: #ec5242;
+    width: 10rem;
+    padding-left: 2rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #272a31;
   }
 
   .program-box {
