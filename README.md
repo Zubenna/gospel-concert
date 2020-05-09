@@ -4,7 +4,24 @@ This project is the coding of a fictitious online music concert. This is my HTML
 
 # Preview
 
+## Home Page
 ![image](images/project-page-extract.png)
+
+## About Page
+![image](images/about-page.png)
+
+## Ticket Page
+![image](images/ticket-page.png)
+
+## Home Page Mobile
+![image](images/home-page-mobile.png)
+
+## About Page Mobile
+![image](images/about-page-mobile.png)
+
+## Ticket Page Mobile
+![image](images/ticket-page-mobile.png)
+
 
 # Additional description about the project and its features
 
@@ -42,7 +59,7 @@ The footer contains the concert logo and copyright year and can be seen in most 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/gospel-concert/2e95cdd4e8669955048a8ea2b8233c21192c3088/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/gospel-concert/b8dc8b0b75ccf666f82543b59bd563d3a68a4d79/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 
@@ -62,12 +79,12 @@ The footer contains the concert logo and copyright year and can be seen in most 
 - Linkedin:(https://linkedin.com/in/nnamdi-emelu-08b14340/)
 
 ## 🤝 Contributing
-Contributions, issues and feature requests are welcome!
-Feel free to check the [issues page](issues/).
+- Contributions, issues and feature requests are welcome!
+- Feel free to check the [issues page](issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+- Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - Special Thanks to Cindy Shin in Behance for this creative design.
