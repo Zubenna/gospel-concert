@@ -13,7 +13,6 @@
   src: url(../fonts/lato/Lato-Heavy.ttf);
 }
 
-
 @font-face {
   font-family: lato-regular;
   src: url(../fonts/lato/Lato-Regular.ttf);
@@ -60,6 +59,18 @@ body {
   color: #fff;
 }
 
+.navbar .navbar-nav .nav-link {
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+}
+
+.gc-campaign {
+  padding: 0.3rem;
+  border: 2px solid #ec5242;
+  box-sizing: border-box;
+  right: 0;
+  color: #ec5242;
+}
+
 .sub-container a:hover,
 .gc-campaign:hover,
 .navbar .navbar-nav .nav-link:hover {
@@ -67,7 +78,7 @@ body {
 }
 
 .sub-container .top-link {
- font-family: "lato-medium", Arial, Helvetica, sans-serif;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
 }
 
 .logo-box img {
@@ -87,20 +98,8 @@ body {
   list-style-type: none;
 }
 
-.navbar .navbar-nav .nav-link {
-  font-family: "lato-medium", Arial, Helvetica, sans-serif;
-}
-
 nav {
   height: 5.5rem;
-}
-
-.gc-campaign {
-  padding: 0.3rem;
-  border: 2px solid #ec5242;
-  box-sizing: border-box;
-  right: 0;
-  color: #ec5242;
 }
 
 .bg-overlay {
@@ -497,7 +496,7 @@ thead {
   .navbar .navbar-nav .nav-link {
     color: #fff;
   }
-  
+
   .navbar .navbar-nav .nav-link:hover {
     color: #272a31;
   }
@@ -606,7 +605,7 @@ thead {
 
   .past-con-1,
   .past-con-2 {
-    width: 90%rem;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -649,7 +648,7 @@ thead {
   .navbar .navbar-nav .nav-link {
     color: #fff;
   }
-  
+
   .navbar .navbar-nav .nav-link:hover {
     color: #272a31;
   }
@@ -733,7 +732,7 @@ thead {
   .navbar .navbar-nav .nav-link {
     color: #fff;
   }
-  
+
   .navbar .navbar-nav .nav-link:hover {
     color: #272a31;
   }
