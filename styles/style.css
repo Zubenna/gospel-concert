@@ -1,0 +1,810 @@
+@font-face {
+  font-family: lato-black;
+  src: url(../fonts/lato/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: coco-regular;
+  src: url(../fonts/cocogoose-pro/Cocogoose\Pro\Regular\Trial.ttf);
+}
+
+@font-face {
+  font-family: lato-heavy;
+  src: url(../fonts/lato/Lato-Heavy.ttf);
+}
+
+@font-face {
+  font-family: lato-regular;
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato-medium;
+  src: url(../fonts/lato/Lato-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  max-width: 63rem;
+  margin: 0 auto;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sub-nav {
+  background-color: #272a31;
+  height: 2rem;
+}
+
+.sub-container .fa {
+  margin-top: 0.5rem;
+}
+
+.sub-container a {
+  margin-top: 0.3rem;
+  margin-right: 0.8rem;
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+}
+
+.gc-campaign {
+  padding: 0.3rem;
+  border: 2px solid #ec5242;
+  box-sizing: border-box;
+  right: 0;
+  color: #ec5242;
+}
+
+.sub-container a:hover,
+.gc-campaign:hover,
+.navbar .navbar-nav .nav-link:hover {
+  color: #ec5242;
+}
+
+.sub-container .top-link {
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+}
+
+.logo-box img {
+  width: 90%;
+  height: auto;
+}
+
+.navbar-nav li {
+  margin-right: 0.4rem;
+}
+
+.navbar-nav {
+  right: 7.5rem;
+}
+
+.collapse ul li {
+  list-style-type: none;
+}
+
+nav {
+  height: 5.5rem;
+}
+
+.bg-overlay {
+  background: linear-gradient(to bottom right, rgb(216, 213, 213), rgba(241, 239, 239, 0.774)), url("../images/gospelconcertbg.jpg") center no-repeat;
+  min-height: 30rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+blockquote {
+  padding-top: 3.5rem;
+  font-size: 1.4rem;
+  color: #ec5242;
+  margin: 0;
+}
+
+.concert-area h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ec5242;
+  font-family: "lato-heavy", Arial, Helvetica, sans-serif;
+}
+
+.program-summary {
+  height: 4.8rem;
+  width: 30rem;
+  color: #272a31;
+  padding: 0.4rem;
+  font-size: small;
+  border: 2px solid #fff;
+  margin-top: 2rem;
+  background-color: #d3d3d3;
+  font-family: "lato-regular", Arial, Helvetica, sans-serif;
+}
+
+.short-hr {
+  border: 1px solid #ec5242;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.concert-date {
+  margin-top: 0.7rem;
+  color: #272a31;
+  font-family: "lato-black", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.concert-venue {
+  margin-top: 0.3rem;
+  color: #272a31;
+  font-size: small;
+  font-family: "lato-regular", Arial, Helvetica, sans-serif;
+}
+
+.see-more-program {
+  border-bottom: 1px solid #fff;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.see-more-program h3 {
+  margin: 0;
+}
+
+.main-program h2,
+.see-more-program {
+  padding-top: 3rem;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.main-program {
+  background: url("../images/background-2.png.png") center no-repeat;
+  min-height: 30rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.mobile-box:hover {
+  border: 4px solid #fff;
+}
+
+.info-box img,
+.lecture-box img {
+  width: 30%;
+  height: auto;
+  filter: invert(90%);
+  -webkit-filter: invert(90%);
+}
+
+.program-box {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.info-box,
+.lecture-box {
+  width: 12rem;
+  height: 12rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(72, 73, 73, 0.434);
+  margin-right: 0.3rem;
+  padding: 1rem;
+}
+
+.info-box h5,
+.lecture-box h5 {
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
+  color: #ec5242;
+  margin: 0.5rem 0;
+}
+
+.info-box p,
+.lecture-box p {
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.feature-hr {
+  border: 1px solid #d3d3d3;
+  width: 10%;
+}
+
+.copyright-box p {
+  align-self: center;
+}
+
+.about-summary p,
+.concert-heading p {
+  margin: 0;
+}
+
+.concert-logo-box p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.feature-box {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+}
+
+.feature-detail {
+  padding-top: 0.8rem;
+}
+
+.feature-detail h5 {
+  font-family: "lato-regular", Arial, Helvetica, sans-serif;
+  color: #272a31;
+  font-weight: 600;
+  margin: 0;
+}
+
+.concert-heading p,
+.concert-logo-box p,
+.past-concert-box p {
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+  color: #272a31;
+  font-size: 0.8rem;
+}
+
+.past-flex-box p {
+  top: 3.5rem;
+  left: 1rem;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.feature-detail p:first-of-type,
+.feature-detail p:last-of-type {
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.feature-detail p:first-of-type {
+  color: #ec5242;
+  padding-top: 0.2rem;
+}
+
+.feature-detail p:last-of-type {
+  color: #272a31;
+}
+
+.feature-section h4 {
+  font-family: "lato-black", Arial, Helvetica, sans-serif;
+  color: #272a31;
+}
+
+.feature-img {
+  width: 80%;
+  top: 1rem;
+  left: 1rem;
+  z-index: 3;
+}
+
+.partner {
+  margin-top: 3rem;
+  background-color: #272a31;
+}
+
+.partner h3 {
+  padding-top: 2rem;
+  color: #d3d3d3;
+  margin: 0;
+}
+
+.brand-logo-box {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.brand-logo-box img {
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+}
+
+.copyright-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.copyright {
+  background-color: #fff;
+  color: #272a31;
+}
+
+.concert-heading h1 {
+  color: rgb(236, 82, 66);
+  font-family: "lato-heavy", Arial, Helvetica, sans-serif;
+}
+
+.about-summary {
+  width: 70%;
+  margin: 0 auto;
+  font-family: "lato-medium", Arial, Helvetica, sans-serif;
+  color: #272a31;
+  border: 0.8px solid #d3d3d3;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 0.8rem;
+}
+
+.concert-logo-box {
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.about-logo {
+  margin: 0 auto;
+  width: 40%;
+  border: 0.7px solid #d3d3d3;
+}
+
+.past-con-1,
+.past-con-2 {
+  height: 10rem;
+  width: 17rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.past-con-1 {
+  background: linear-gradient(to bottom right, rgba(236, 83, 66, 0.733), rgba(236, 83, 66, 0.433)), url("../images/past-concert-1.jpg") center no-repeat;
+}
+
+.past-con-2 {
+  background: linear-gradient(to bottom right, rgba(236, 83, 66, 0.733), rgba(236, 83, 66, 0.433)), url("../images/past-concert-2.jpg") center no-repeat;
+}
+
+.past-flex-box {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.past-flex-box span {
+  top: 3rem;
+  left: 7rem;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+footer {
+  height: 9rem;
+  background-color: #272a31;
+  color: #fff;
+}
+
+.select-ticket-box {
+  height: 30rem;
+}
+
+.inverse-square {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #ec5242;
+}
+
+.inverse-square1 {
+  left: 17%;
+  top: 2.3rem;
+}
+
+.inverse-square2 {
+  left: 13%;
+  top: 2.3rem;
+}
+
+.inverse-square3 {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #ec5242;
+  left: 49.5%;
+  top: 0;
+}
+
+.step {
+  color: #ec5242;
+  font-family: "coco-regular", Arial, Helvetica, sans-serif;
+}
+
+.select-ticket,
+.select-launch {
+  border: 1px solid #272a31;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.select-launch {
+  width: 80%;
+}
+
+.currency-colr {
+  color: #ec5242;
+}
+
+tbody {
+  background-color: #fff;
+}
+
+thead {
+  background-color: rgba(243, 236, 236, 0.96);
+}
+
+.sub-button {
+  margin: 0 auto;
+  width: 10rem;
+  background-color: #ec5242;
+  height: 2rem;
+  border: none;
+  color: #fff;
+}
+
+.bnt-div {
+  text-align: center;
+}
+
+.hide-in-desktop {
+  display: none;
+}
+
+@media only screen and (max-width: 575.9px) {
+  .hide-in-mobile {
+    display: none;
+  }
+
+  nav {
+    float: left;
+  }
+
+  .navbar-nav {
+    background-color: #ec5242;
+    width: 10rem;
+    padding-left: 2rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .navbar .navbar-nav .nav-link:hover {
+    color: #272a31;
+  }
+
+  .concert-area {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .concert-area h2 {
+    font-size: 2rem;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .program-summary {
+    width: 98%;
+    height: 8rem;
+  }
+
+  .concert-date {
+    font-size: 1.3rem;
+  }
+
+  .program-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-box {
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 1fr;
+    grid-column-gap: 0.6rem;
+    margin: 0 auto 1rem auto;
+    width: 90%;
+    height: 10rem;
+    align-items: center;
+  }
+
+  .mobile-box img {
+    width: 70%;
+  }
+
+  .mobile-box p {
+    text-align: left;
+  }
+
+  .join-concert button {
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .feature-unit {
+    margin-right: 0.6rem;
+  }
+
+  .copyright-box img {
+    width: 60%;
+  }
+
+  .copyright-box {
+    padding-left: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .concert-heading {
+    padding: 3rem 1rem 2rem 0;
+    width: 100%;
+  }
+
+  .hide-in-desktop {
+    display: block;
+  }
+
+  .concert-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-logo-container h4 {
+    font-size: 1.2rem;
+  }
+
+  .about-logo-container p {
+    width: 80%;
+  }
+
+  .about-logo img {
+    width: 70%;
+  }
+
+  .past-flex-box {
+    flex-direction: column;
+  }
+
+  .past-flex-box p {
+    left: 1.5rem;
+  }
+
+  .past-con-1,
+  .past-con-2 {
+    width: 62%;
+    margin: 0 auto;
+  }
+
+  .past-con-1 {
+    margin-bottom: 2rem;
+  }
+
+  .brand-logo-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-items: center;
+  }
+
+  .brand-logo-box img {
+    width: 70%;
+    object-fit: cover;
+  }
+
+  .select-ticket-box {
+    padding-top: 3rem;
+  }
+
+  .select-lunch {
+    padding-top: 9rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.9px) {
+  .hide-in-desktop {
+    display: block;
+  }
+
+  .navbar-nav {
+    background-color: #ec5242;
+    width: 10rem;
+    padding-left: 2rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .navbar .navbar-nav .nav-link:hover {
+    color: #272a31;
+  }
+
+  .concert-area {
+    padding: 2rem;
+  }
+
+  .program-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-box {
+    display: grid;
+    grid-template-columns: 0.4fr 0.5fr 1.4fr;
+    grid-column-gap: 0.6rem;
+    margin: 0 auto 1rem auto;
+    width: 90%;
+    height: 10rem;
+    align-items: center;
+  }
+
+  .mobile-box img {
+    width: 90%;
+  }
+
+  .mobile-box p {
+    text-align: left;
+  }
+
+  .join-concert button {
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .feature-section {
+    padding: 1rem;
+  }
+
+  .feature-detail {
+    margin-left: 0.6rem;
+  }
+
+  footer {
+    padding: 0.6rem;
+  }
+
+  .past-flex-box {
+    flex-direction: column;
+    padding-left: 2.6rem;
+  }
+
+  .past-con-1 {
+    margin-bottom: 2rem;
+  }
+
+  .inverse-square2 {
+    left: 11%;
+  }
+
+  .hide-in-sm {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .concert-area {
+    padding: 2rem;
+  }
+
+  .navbar-nav {
+    background-color: #ec5242;
+    width: 10rem;
+    padding-left: 2rem;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .navbar .navbar-nav .nav-link:hover {
+    color: #272a31;
+  }
+
+  .program-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-box {
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr 1.6fr;
+    grid-column-gap: 0.6rem;
+    margin: 0 auto 1rem auto;
+    width: 90%;
+    height: 10rem;
+    align-items: center;
+  }
+
+  .mobile-box img {
+    width: 90%;
+  }
+
+  .mobile-box p {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .program-summary {
+    width: 80%;
+    height: 6rem;
+    font-size: 1rem;
+  }
+
+  .see-more-program {
+    width: 40%;
+  }
+
+  .see-more-program p {
+    font-size: 1.4rem;
+  }
+
+  .feature-section {
+    padding: 1rem;
+  }
+
+  .feature-detail {
+    margin-left: 0.6rem;
+  }
+
+  footer {
+    padding: 0.6rem;
+  }
+
+  .past-flex-box {
+    flex-direction: column;
+    margin-left: 15rem;
+  }
+
+  .past-con-1 {
+    margin-bottom: 2rem;
+  }
+
+  .inverse-square2 {
+    left: 11%;
+  }
+
+  .inverse-square1 {
+    left: 16%;
+  }
+}
