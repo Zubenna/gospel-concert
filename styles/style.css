@@ -157,15 +157,15 @@ blockquote {
 
 .see-more-program {
   border-bottom: 1px solid #fff;
-  width: 18%;
+  width: 30%;
   margin: 0 auto;
 }
 
-.see-more-program p {
+.see-more-program h3 {
   margin: 0;
 }
 
-.main-program h4,
+.main-program h2,
 .see-more-program {
   padding-top: 3rem;
   font-family: "coco-regular", Arial, Helvetica, sans-serif;
@@ -309,7 +309,7 @@ blockquote {
   background-color: #272a31;
 }
 
-.partner h5 {
+.partner h3 {
   padding-top: 2rem;
   color: #d3d3d3;
   margin: 0;
@@ -596,16 +596,20 @@ thead {
   }
 
   .about-logo img {
-    width: 80%;
+    width: 70%;
   }
 
   .past-flex-box {
     flex-direction: column;
   }
 
+ .past-flex-box p {
+    left: 1.5rem;
+  }
+
   .past-con-1,
   .past-con-2 {
-    width: 90%;
+    width: 62%;
     margin: 0 auto;
   }
 
