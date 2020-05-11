@@ -603,7 +603,7 @@ thead {
     flex-direction: column;
   }
 
- .past-flex-box p {
+  .past-flex-box p {
     left: 1.5rem;
   }
 

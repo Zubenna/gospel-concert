@@ -59,7 +59,7 @@ The footer contains the concert logo and copyright year and can be seen in most 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/gospel-concert/b8dc8b0b75ccf666f82543b59bd563d3a68a4d79/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/gospel-concert/b6bf244e49998706d9bddd5f8d01714228e5cc48/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 
